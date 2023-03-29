@@ -19,8 +19,7 @@ export default function Home() {
 
         <div className={styles.center}>
           <h1>Armani Appolon</h1>
-        </div>
-        <div className={styles.center}>
+          <br/>
           <ul>
             <li><Link href="/posts/first-post">Question 1</Link></li>
             <li><Link href="/posts/second-post">Question 2</Link></li>
