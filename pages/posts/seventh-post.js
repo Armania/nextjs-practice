@@ -18,6 +18,7 @@ export default function SeventhPost(){
         <li>Currently reading, <em>&rdquo;Kill the Price&ldquo;</em> by Dan Fogarty </li>
         <li>How to reach me: <em><a href="mailto:armaniappolon@gmail.com">armaniappolon@gmail.com</a></em> </li>
       </ul>
+			<p><a href="/posts/sixth-post">Prev post -></a> | <a href="/posts/second-post">First post -></a></p>
     </div>
   )
 }

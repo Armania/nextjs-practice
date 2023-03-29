@@ -20,6 +20,8 @@ export default function SecondPost(){
       <p>If a customer&quot;s data were ingested late, they would see the data missing in their UI. This would lead to a ticket or email to our account team for help. We tracked these requests. Before the dashboard, we would have 5-7 delayed data a week on avg. After the dashboard, this happened once or twice every two weeks. </p>
 
       <p>These delays were more commonly due to data size rather than due to the time-consuming procedure of finding and restarting processes.</p>
+
+      <p><a href="/posts/first-post"><- Prev post</a> | <a href="/posts/third-post">Next post -></a></p>
 		</div>
 	);
 }

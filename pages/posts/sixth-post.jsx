@@ -9,6 +9,7 @@ export default function SixthPost(){
         <li>Improve the details in the error messages customers are seeing. </li>
         <li>Provide training and education events to help customers stay informed on common product issues, or updates on product releases/updates.</li>
       </ul>
+      <p><a href="/posts/fifth-post"><- Prev post</a> | <a href="/posts/seventh-post">Next post -></a></p>
     </div>
   )
 }
