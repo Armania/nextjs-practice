@@ -19,16 +19,15 @@ export default function Home() {
 
         <div className={styles.center}>
           <h1>Armani Appolon</h1>
-        </div>
-
-        <div className={styles.grid}>
-          <Link href="/posts/first-post">Question 1</Link>
-          <Link href="/posts/second-post">Question 2</Link>
-          <Link href="/posts/third-post">Question 3</Link>
-          <Link href="/posts/fourth-post">Question 4</Link>
-          <Link href="/posts/fifth-post">Question 5</Link>
-          <Link href="/posts/sixth-post">Question 6</Link>
-          <Link href="/posts/seventh-post">Question 7</Link>
+          <ul>
+            <li><Link href="/posts/first-post">Question 1</Link></li>
+            <li><Link href="/posts/second-post">Question 2</Link></li>
+            <li><Link href="/posts/third-post">Question 3</Link></li>
+            <li><Link href="/posts/fourth-post">Question 4</Link></li>
+            <li><Link href="/posts/fifth-post">Question 5</Link></li>
+            <li><Link href="/posts/sixth-post">Question 6</Link></li>
+            <li><Link href="/posts/seventh-post">Question 7</Link></li>
+          </ul>
         </div>
       </main>
     </>
