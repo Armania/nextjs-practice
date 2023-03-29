@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function SeventhPost(){
   return (
     <div>
@@ -16,9 +18,9 @@ export default function SeventhPost(){
         <li>Currently Watching <strong>Abbot Elementary.</strong>
         </li>
         <li>Currently reading, <em>&rdquo;Kill the Price&ldquo;</em> by Dan Fogarty </li>
-        <li>How to reach me: <em><a href="mailto:armaniappolon@gmail.com">armaniappolon@gmail.com</a></em> </li>
+        <li>How to reach me: <em><Link href="mailto:armaniappolon@gmail.com">armaniappolon@gmail.com</Link></em> </li>
       </ul>
-			<p><a href="/posts/sixth-post">Prev post -&lt;</a> | <a href="/posts/second-post">First post -&gt;</a></p>
+			<p><Link href="/posts/sixth-post">Prev post -&lt;</Link> | <Link href="/posts/second-post">First post -&gt;</Link></p>
     </div>
   )
 }

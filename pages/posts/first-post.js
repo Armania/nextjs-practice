@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function FirstPost(){
 	return (
 		<div>
@@ -10,7 +12,7 @@ export default function FirstPost(){
 				<li>earn more about the design process and how to build a great user experience.</li>
 			</ul>
 			<p>My goal is to build a product managers skill set. I believe that as a PM I will be able to use my versatility to be most impactful on a team.</p>
-			<p><a href="/posts/second-post">Next -&gt;</a></p>
+			<p><Link href="/posts/second-post">Next -&gt;</Link></p>
 		</div>
 	);
 }

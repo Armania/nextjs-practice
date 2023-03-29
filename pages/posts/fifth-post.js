@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function FifthPost(){
 	return (
 		<div>
@@ -23,7 +25,7 @@ export default function FifthPost(){
       <p>I am not sure what this error message is for? I am assuming this customer is missing a file in her repo/project.</p>
 
       <p>I would look for documentation that would provide this customer with the steps to fix this issue. But more importantly look for docs that would provide information on how to prevent this issue from happening again. I would look for articles/docs that could educate this customers on why this type of error occured and understand what the error message is saying. I believe it benefits the customer to educate them while helping them with issues. This empowers the user in my opinion and I hope gives them more confidence in the product I am supporting.</p>
-      <p><a href="/posts/fourth-post">&lt;- Prev post</a> | <a href="/posts/sixth-post">Next post -&gt;</a></p>
+      <p><Link href="/posts/fourth-post">&lt;- Prev post</Link> | <Link href="/posts/sixth-post">Next post -&gt;</Link></p>
     </div>
 	);
 }

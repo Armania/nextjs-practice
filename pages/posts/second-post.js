@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function SecondPost(){
 	return (
 		<div>
@@ -21,7 +23,7 @@ export default function SecondPost(){
 
       <p>These delays were more commonly due to data size rather than due to the time-consuming procedure of finding and restarting processes.</p>
 
-      <p><a href="/posts/first-post">&lt;- Prev post</a> | <a href="/posts/third-post">Next post -&gt;</a></p>
+      <p><Link href="/posts/first-post">&lt;- Prev post</Link> | <Link href="/posts/third-post">Next post -&gt;</Link></p>
 		</div>
 	);
 }
