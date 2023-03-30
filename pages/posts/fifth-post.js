@@ -1,8 +1,15 @@
-import Link from 'next/link'
+import Link from 'next/link';
+import Head from 'next/head';
 
 export default function FifthPost(){
 	return (
 		<div>
+      <Head>
+        <title>Question #5</title>
+        <meta name="description" content="Answer to question number 5." />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <h1>Imagine a customer writes in, requesting help with the following question. Write a first response for triaging this case and helping them solve the issue.</h1>
 
      <p>Hi &lt;customer name&gt;,</p>

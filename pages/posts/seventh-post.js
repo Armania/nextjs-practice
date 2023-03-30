@@ -1,8 +1,15 @@
-import Link from 'next/link'
+import Link from 'next/link';
+import Head from 'next/head';
 
 export default function SeventhPost(){
   return (
-    <div>
+    <>
+      <Head>
+        <title>Question #7</title>
+        <meta name="description" content="Answer to question number 7." />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <h1>How could we improve or alter this familiarization exercise?</h1>
       <p>I would add a section or question to have candidates describe themself. This would allow you to get to know the candidate more. Also, It could be a good writing warm-up exercise to write about yourself before writing the answers to the questions above.</p>
       <p>With that....</p>
@@ -21,7 +28,7 @@ export default function SeventhPost(){
         <li>How to reach me: <em><Link href="mailto:armaniappolon@gmail.com">armaniappolon@gmail.com</Link></em> </li>
       </ul>
 			<p><Link href="/posts/sixth-post">-&lt; Prev post</Link> | <Link href="/posts/second-post">First post -&gt;</Link></p>
-    </div>
+    </>
   )
 }
 
